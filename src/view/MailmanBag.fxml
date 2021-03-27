@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anc_bag" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MailmanBag">
+   <children>
+      <ImageView fx:id="img_bag" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/MailmanBag.jpg" />
+         </image>
+      </ImageView>
+      <ListView fx:id="list_mails" blendMode="MULTIPLY" layoutX="31.0" layoutY="34.0" prefHeight="359.0" prefWidth="435.0" />
+      <Button fx:id="btn_return" blendMode="MULTIPLY" layoutX="489.0" layoutY="340.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="107.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anc_main" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainView">
+   <children>
+      <ImageView fx:id="img_menu" fitHeight="452.0" fitWidth="602.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/MailmanMain.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_add" blendMode="MULTIPLY" layoutX="424.0" layoutY="329.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="66.0" />
+      <TextField fx:id="txt_postoffice" layoutX="12.0" layoutY="103.0" prefHeight="25.0" prefWidth="366.0" />
+      <Label fx:id="lbl_postoffice" blendMode="MULTIPLY" layoutX="412.0" layoutY="54.0" prefHeight="35.0" prefWidth="167.0" text="No Post Office Selected">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font></Label>
+      <Button fx:id="btn_enter" layoutX="312.0" layoutY="102.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="66.0" text="Enter">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="11.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="cmb_mails" layoutX="12.0" layoutY="146.0" prefHeight="25.0" prefWidth="366.0" />
+      <Button fx:id="btn_send" blendMode="MULTIPLY" layoutX="501.0" layoutY="329.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="66.0" />
+      <Button fx:id="btn_check" blendMode="MULTIPLY" layoutX="8.0" layoutY="337.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="66.0" />
+      <Label fx:id="lbl_added" layoutX="412.0" layoutY="107.0" prefHeight="35.0" prefWidth="167.0" text="Mail Added!">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
